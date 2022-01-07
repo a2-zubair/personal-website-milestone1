@@ -22,7 +22,6 @@ a {
 .banner-right,
 .banner-left {
   width: 50%;
-  border: 1px solid;
 }
 
 .banner-left {
@@ -58,5 +57,36 @@ a {
 /* end banner section */
 
 /* mission section */
+.mission {
+  margin: 100px 0;
+  padding: 0 150px;
+}
 
+.mission-title-text {
+  text-align: center;
+}
+
+.mission-box-container {
+  display: flex;
+}
+
+.mission-box,
+.vission-box,
+.goal-box {
+  background-color: darkgray;
+  margin: 50px 0 50px 20px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.mission-box img,
+.vission-box img,
+.goal-box img {
+  width: 100px;
+}
 /* end mission section */
+
+/* develop section */
+
+/* end develop section */
