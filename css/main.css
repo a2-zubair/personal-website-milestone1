@@ -7,4 +7,56 @@ body {
   color: #152c5b;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* custom css */
+
+/* banner section */
+.banner {
+  display: flex;
+  margin: 50px 100px;
+}
+
+.banner-right,
+.banner-left {
+  width: 50%;
+  border: 1px solid;
+}
+
+.banner-left {
+  padding: 80px 25px 0;
+}
+
+.banner-right img {
+  width: 350px;
+  padding-left: 100px;
+}
+
+.banner-title {
+  border-left: 2px solid #7510f7;
+  padding: 0 15px;
+}
+
+#missin-2022-text {
+  color: #7510f7;
+}
+
+.my-project-btn {
+  padding: 15px 25px;
+  background-color: #7510f7;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.banner-scroll-text {
+  padding-top: 20px;
+  font-size: 14px;
+}
+/* end banner section */
+
+/* mission section */
+
+/* end mission section */
