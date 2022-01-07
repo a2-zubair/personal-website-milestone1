@@ -88,5 +88,27 @@ a {
 /* end mission section */
 
 /* develop section */
+.develop {
+  display: flex;
+  margin-bottom: 100px;
+  padding: 0 170px;
+}
 
+.develop-left img {
+  width: 320px;
+  margin-right: 50px;
+}
+
+.develop-right {
+  /* width: 600px; */
+}
+
+.read-more-btn {
+  padding: 10px 20px;
+  background-color: #7510f7;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 25px;
+}
 /* end develop section */
