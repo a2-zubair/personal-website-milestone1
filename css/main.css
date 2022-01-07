@@ -112,3 +112,37 @@ a {
   margin-top: 25px;
 }
 /* end develop section */
+
+/* global section */
+.global {
+  display: flex;
+  margin-bottom: 100px;
+  padding: 0 170px;
+}
+
+.global-right img {
+  width: 320px;
+  margin-left: 50px;
+}
+/* end global section */
+
+/* footer */
+.footer {
+  padding: 5px 0;
+  background-color: #7510f7;
+  color: #fff;
+  text-align: center;
+}
+
+.footer h4 {
+  font-size: 24px;
+}
+
+.footer h4 > span {
+  color: tomato;
+}
+
+.footer p {
+  font-size: 14px;
+}
+/* end footer */
