@@ -65,6 +65,12 @@ a {
 
 .mission-title-text {
   text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mission-title-text span {
+  color: #7510f7;
 }
 
 .mission-box-container {
@@ -75,7 +81,7 @@ a {
 .vission-box,
 .goal-box {
   background-color: darkgray;
-  margin: 50px 0 50px 20px;
+  margin: 20px 0 50px 20px;
   padding: 25px 25px;
   border-radius: 10px;
   width: 300px;
