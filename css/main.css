@@ -152,12 +152,13 @@ a {
   background-image: url(../images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-size: 150px;
-  background-position: right 9% bottom 21%;
+  background-position: right 9% bottom 5%;
 }
 
 .developer-right img {
   width: 320px;
   margin-left: 50px;
+  padding-bottom: 50px;
 }
 /* end developer section */
 
