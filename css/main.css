@@ -16,7 +16,7 @@ a {
 /* banner section */
 .banner {
   display: flex;
-  margin: 50px 100px;
+  margin: 50px 150px;
 }
 
 .banner-right,
@@ -30,12 +30,13 @@ a {
 
 .banner-right img {
   width: 350px;
-  padding-left: 100px;
+  padding-left: 190px;
 }
 
 .banner-title {
   border-left: 2px solid #7510f7;
   padding: 0 15px;
+  font-size: 40px;
 }
 
 #missin-2022-text {
@@ -43,10 +44,10 @@ a {
 }
 
 .my-project-btn {
-  padding: 15px 25px;
+  padding: 10px 20px;
   background-color: #7510f7;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 14px;
 }
 
@@ -75,9 +76,22 @@ a {
 .goal-box {
   background-color: darkgray;
   margin: 50px 0 50px 20px;
-  padding: 25px 20px;
+  padding: 25px 25px;
   border-radius: 10px;
   width: 300px;
+  color: #fff;
+}
+
+.mission-box {
+  background-color: #e64a19;
+}
+
+.vission-box {
+  background-color: #039be5;
+}
+
+.goal-box {
+  background-color: #43a047;
 }
 
 .mission-box img,
@@ -85,21 +99,33 @@ a {
 .goal-box img {
   width: 100px;
 }
+
+.mission-box p,
+.vission-box p,
+.goal-box p {
+  font-size: 16px;
+  padding-right: 20px;
+  /* text-align: justify; */
+}
 /* end mission section */
 
-/* develop section */
-.develop {
+/* designer section */
+.designer {
   display: flex;
   margin-bottom: 100px;
   padding: 0 170px;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: 8% 35%;
 }
 
-.develop-left img {
+.designer-left img {
   width: 320px;
   margin-right: 50px;
 }
 
-.develop-right {
+.designer-right {
   /* width: 600px; */
 }
 
@@ -111,25 +137,63 @@ a {
   font-size: 14px;
   margin-top: 25px;
 }
-/* end develop section */
+/* end designer section */
 
-/* global section */
-.global {
+/* developer section */
+.developer {
   display: flex;
-  margin-bottom: 100px;
   padding: 0 170px;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: right 9% bottom 21%;
 }
 
-.global-right img {
+.developer-right img {
   width: 320px;
   margin-left: 50px;
 }
-/* end global section */
+/* end developer section */
+
+/* interest section */
+.interest {
+  display: flex;
+  background-color: aliceblue;
+  margin-top: 50px;
+}
+
+.interest_box {
+  display: flex;
+  padding: 50px 0;
+  margin: 0 130px;
+}
+
+.interest-title {
+  margin-left: 33px;
+}
+
+.interest-text {
+  margin-top: 30px;
+  padding: 0px 85px;
+}
+
+.conversation-btn {
+  padding: 0 30px;
+  margin-top: 50px;
+}
+
+.conversation-btn a {
+  background-color: #7510f7;
+  padding: 20px 25px;
+  color: #fff;
+  border-radius: 50px;
+}
+/* end interest section */
 
 /* footer */
 .footer {
   padding: 5px 0;
-  background-color: #7510f7;
+  background-color: #141c3a;
   color: #fff;
   text-align: center;
 }
@@ -139,7 +203,7 @@ a {
 }
 
 .footer h4 > span {
-  color: tomato;
+  color: #ffad5a;
 }
 
 .footer p {
